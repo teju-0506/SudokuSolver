@@ -1,0 +1,48 @@
+body{
+  /*background-color: rgb(31, 127, 211);*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:rgb(238, 244, 244)
+}
+.Head{
+  font-size: 100px;
+}
+.container-fluid{
+  margin-left: 0;
+  padding-left: 0;
+}
+img{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.table{
+  border: 5px solid black;
+  font-size: larger;
+  margin-top: 20px;
+  table-layout: fixed;
+  word-wrap: break-word;
+
+}
+.bg-start{
+  border: 5px solid black;
+  /*align-items: center;*/
+}
+.bg-middle{
+  border: 5px solid black;
+  /*background-color: rgb(234, 72, 72);*/
+}
+.custom_btn{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 20px;
+  font-size: larger;
+}
+.table td {
+  text-align: center;   
+}
+h2{
+  color: red;
+}
+
